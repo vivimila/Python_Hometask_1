@@ -4,10 +4,10 @@
 try:
     number1 = int(input('Введите число, которое обозначает день недели: '))
     #number2 = int(input('Введите второе число: '))
-    if number1 == range(1,5):
-        print(f'{number1} это рабочий день недели')
-    elif number1  == range(6,7):
-        print(f'{number1} это выходной')
+    if number1 == number1 < 6:
+        print(f'это рабочий день недели')
+    elif number1  == 6 <= number1 or number1 <= 7:
+        print(f'это выходной')
     else:
         print('Введено неверное значение')
 except:
